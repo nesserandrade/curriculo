@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+}
+
+.container {
+    background-color: #95978C;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), white), url(nesser.jpg);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    padding-left: 350px;
+    align-items: center;
+}
+
+#basico {
+    margin-right: 0;
+    margin-left: 50px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    align-items: center;
+}
+
+#dados {
+    padding: 20px;
+}
+
+#cursos {
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 20px;
+    align-items: center;
+}
